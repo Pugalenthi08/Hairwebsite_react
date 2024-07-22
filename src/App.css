@@ -1,0 +1,457 @@
+nav.bg-body-tertiary {
+  background-color: var(--header-color) !important;
+  /* height: 110px; */
+}
+
+
+.menu a {
+  padding: 0px 20px;
+  font-size: 16px;
+
+}
+
+.button1 {
+  background-color: var(--button) !important;
+  color: rgb(11, 38, 1) !important;
+}
+
+.button {
+  background-color: var(--button) !important;
+  color: rgb(11, 38, 1) !important;
+}
+
+
+nav {
+  background-color: var(--header-color);
+  padding: 0px;
+
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.inner {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  text-align: center;
+  height: 400px;
+  width: 100%;
+
+  background-image: url(./Image/introback.png);
+}
+
+.intro {
+  transition: 1s;
+
+}
+
+.intro:hover {
+  transform: scale(1.15) !important;
+}
+
+
+
+/* .innerintro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.firstsection img {
+  margin: 10px 0px 10px 0px;
+
+  max-height: 380px;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.button {
+  background-color: var(--button) !important;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: none !important;
+  color: white !important;
+}
+
+.button2 {
+  background-color: var(--button) !important;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: none !important;
+  color: white !important;
+}
+.button3 {
+  background-color: var(--button) !important;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border: none !important;
+  color: white !important;
+}
+
+.icon {
+  text-align: center;
+}
+
+/* .treatment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} */
+
+/* .treatment div {
+  padding: 10px;
+} */
+
+.treatment img {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.image img {
+
+  margin: auto;
+
+  height: 300px;
+  width: 300px;
+
+  border-radius: 30px;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container1 {
+  background-color: var(--primary-color);
+  padding: 40px;
+  /* height: 500px; */
+}
+
+.container2 {
+  background-color: var(--primary-color);
+}
+
+
+.btn {
+  color: white !important;
+}
+
+.padding {
+  padding-top: 30px;
+}
+
+.slick-arrow {
+  display: none !important;
+}
+
+.bfimage img {
+  height: 300px !important;
+  margin: auto;
+}
+
+.bfimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  font-size: 14px !important;
+}
+.productimage img{
+  height: 150px;
+}
+.innereproduct{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.productimage {
+  /* background-color: var(--secondary-color); */
+  /* margin: 10px; */
+  padding: 40px;
+}
+.text{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding-bottom: 0px;
+}
+.freecon img{
+  
+  height: 300px !important;
+}
+.freecon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.freecontext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactimage img{
+  height: 250px !important;
+}
+.contactimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactbox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.contactbutton{
+  height: 50px;
+  width: 100%;
+  background-color: var(--button);
+  border-radius: 20px;
+  color: white;
+}
+.contactbox input{
+  margin-top: 20px;
+  height: 50px;
+  width: 215px;
+  border-radius: 5px;
+}
+ textarea{
+  height: 100px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.container5{
+  margin-top: 30px !important;
+  background-color: var(--header-color);
+  border-radius: 10px 10px 0px 0px;
+}
+.footerbox1{
+  /* margin-top: 30px !important; */
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer2{
+  margin: auto !important;
+}
+.footer3{
+  margin: auto !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:992px) {
+  .button1 {
+    display: none !important;
+  }
+
+ 
+
+}
+
+@media only screen and (max-width:992px) {
+  .bfimage img {
+    height: 230px !important;
+    margin: auto;
+  }
+
+  .menu {
+    display: block;
+
+  }
+
+  .menu a {
+    display: block;
+    padding: 10px;
+  }
+
+  .button {
+    display: none !important;
+  }
+
+  .intro {
+    transition: 1s;
+
+  }
+
+  .intro:hover {
+    transform: scale(1.05) !important;
+  }
+
+  .image img {
+
+    margin: auto;
+
+    height: 250px;
+    width: 250px;
+
+    border-radius: 30px;
+  }
+
+  p {
+    font-size: 12px !important;
+  }
+  .freecon img {
+    height: 200px !important;
+}
+  .freecontext h2 {
+    font-size: 26px !important;
+}
+  .freecontext h6 {
+    font-size: 12px !important;
+}
+.button3{
+  height: 45px !important;
+  width: 150px !important;
+}
+
+
+}
+
+
+
+@media only screen and (max-width:768px) {
+  h5 {
+    font-size: 18px !important;
+  }
+
+  .h1font {
+    font-size: 50px !important;
+  }
+
+  .intro {
+    height: 300px;
+  }
+
+  .inner {
+    height: 300px !important;
+  }
+
+  .treatment img {
+    height: 80px;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+@media only screen and (max-width:576px) {
+  h5 {
+    font-size: 16px !important;
+  }
+
+  .h1font {
+    font-size: 40px !important;
+  }
+
+  .padding {
+    padding: 25px !important;
+  }
+
+
+  .intro:hover {
+    transform: none !important;
+  }
+  .productimage img{
+    height: 250px;
+  }
+  .productimage  h5{
+    font-size: 20px !important;
+    
+  }
+  .contactimage img {
+    height: 230px !important;
+}
+.contactbox input{
+  width: 170px !important;
+  height: 45px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:400px) {
+  h5 {
+    font-size: 12px !important;
+  }
+
+  .h1font {
+    font-size: 35px !important;
+  }
+
+
+  .intro:hover {
+    transform: none !important;
+  }
+
+  .padding {
+    padding-top: 17px !important;
+  }
+
+  .image img {
+
+    margin: auto;
+
+    height: 200px;
+    width: 200px;
+
+    border-radius: 30px;
+  }
+  .bfimage img {
+    height: 180px !important;
+    margin: auto;
+  }
+  .freecontext h2 {
+    font-size: 22px !important;
+}
+.contactbox input{
+  width: 140px !important;
+  height: 45px;
+}
+}

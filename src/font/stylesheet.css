@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Amarillo';
+    src: url('Amarillo.eot');
+    src: url('Amarillo.eot?#iefix') format('embedded-opentype'),
+        url('Amarillo.woff2') format('woff2'),
+        url('Amarillo.woff') format('woff'),
+        url('Amarillo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
